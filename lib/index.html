@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cyberpunk 2077</title>
     <link rel="stylesheet" href="./cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
     <style>
         .navbar-nav .nav-link.active {
@@ -19,22 +19,63 @@
         }
 
         header {
-            position: sticky;
-            top: 0;
-            left: 0;
             padding-bottom: 40px;
         }
+
+        .card-header {
+            width: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            background-color: #FCEE0A;
+            color: #000;
+        }
+
+        .col-4 {
+            margin-bottom: 50px;
+        }
+
+        .card-title {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+        .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .row .col-4 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .row .col-4 {
+        width: 100%;
+    }
+}
+
     </style>
 </head>
 <body>
     <header>
         <div class="navbar navbar-expand-lg">
             <div class="container">
-                <h1>Loja de Items</h1>
+                <h1>Cyberpunk 2077</h1>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <nav class="callapse navbar-collapse justify-content-end" id="menu">
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
                     <ul class="nav navbar-nav nav-pills">
                         <li class="nav-item">
                             <a class="nav-link active" href="#inicio">Início</a>
@@ -54,21 +95,21 @@
         <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div data-bs-interval="3000" class="carousel-item active">
-                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/10/27/09/24/mountains-8344601_1280.jpg" alt="">
+                        <img class="d-block w-100" src="./photomode_07112023_153326.png" alt="">
                         <div class="carousel-caption">
-                            <h2>Montanhas no Pôr do sol</h2>
+                            <h2>Cyberpunk</h2>
                         </div>
                     </div>
                     <div data-bs-interval="3000" class="carousel-item">
-                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/09/14/19/14/landscape-8253576_1280.jpg" alt="">
+                        <img class="d-block w-100" src="./cyberpunk 2.png" alt="">
                         <div class="carousel-caption">
-                            <h2>Paisagem Florestal</h2>
+                            <h2>Cyberpunk</h2>
                         </div>
                     </div>
                     <div data-bs-interval="3000" class="carousel-item">
-                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/10/31/16/35/leaves-8355509_1280.jpg" alt="">
+                        <img class="d-block w-100" src="cyberpunk 3.png" alt="">
                         <div class="carousel-caption">
-                            <h2>Folhas de outono</h2>
+                            <h2>Cybepunk</h2>
                         </div>
                     </div>
                 </div>
@@ -88,12 +129,11 @@
                 <div class="col-4">
                     <div class="card">
                         <div class="card-header">
-                            cabeçalho do header
+                            Cyberpunk 2077
                         </div>
-                        <img src="https://via.placeholder.com/100x100">
+                        <img src="./cyberpunk 6.png.jpg">
                         <div class="card-body">
-                            <h4 class="card-tittle">Tirulo do Card</h4>
-                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                            <h4 class="card-tittle">Cyberpunk</h4>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo voluptatem ducimus, beatae aliquid accusamus. 
                             </p>
@@ -104,12 +144,11 @@
                 <div class="col-4">
                     <div class="card">
                         <div class="card-header">
-                            cabeçalho do header
+                            Cyberpunk 2077
                         </div>
-                        <img src="https://via.placeholder.com/100x100">
+                        <img src="./cyberpunk 6.png.jpg">
                         <div class="card-body">
-                            <h4 class="card-tittle">Tirulo do Card</h4>
-                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                            <h4 class="card-tittle">Cyberpunk</h4>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo voluptatem ducimus, beatae aliquid accusamus. 
                             </p>
@@ -120,12 +159,56 @@
                 <div class="col-4">
                     <div class="card">
                         <div class="card-header">
-                            cabeçalho do header
+                            Cyberpunk 2077
                         </div>
-                        <img src="https://via.placeholder.com/100x100">
+                        <img src="./cyberpunk 6.png.jpg">
                         <div class="card-body">
-                            <h4 class="card-tittle">Tirulo do Card</h4>
-                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                            <h4 class="card-tittle">Cyberpunk</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo voluptatem ducimus, beatae aliquid accusamus. 
+                            </p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Cyberpunk 2077
+                        </div>
+                        <img src="./cyberpunk 6.png.jpg">
+                        <div class="card-body">
+                            <h4 class="card-tittle">Cyberpunk</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo voluptatem ducimus, beatae aliquid accusamus. 
+                            </p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Cyberpunk 2077
+                        </div>
+                        <img src="./cyberpunk 6.png.jpg">
+                        <div class="card-body">
+                            <h4 class="card-tittle">Cyberpunk</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo voluptatem ducimus, beatae aliquid accusamus. 
+                            </p>
+                            <a href="#" class="btn btn-primary">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Cyberpunk 2077
+                        </div>
+                        <img src="./cyberpunk 6.png.jpg">
+                        <div class="card-body">
+                            <h4 class="card-tittle">Cyberpunk</h4>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo voluptatem ducimus, beatae aliquid accusamus. 
                             </p>
